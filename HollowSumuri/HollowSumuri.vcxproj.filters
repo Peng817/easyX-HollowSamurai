@@ -21,12 +21,24 @@
     <ClCompile Include="src\base\animation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\util\resource_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="util\timer.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\base\animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_resource_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\resource_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\util.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

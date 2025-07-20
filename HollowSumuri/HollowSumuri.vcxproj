@@ -129,9 +129,13 @@
   <ItemGroup>
     <ClCompile Include="src\base\animation.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\util\resource_manager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\base\animation.h" />
+    <ClInclude Include="src\util\resource_manager.h" />
+    <ClInclude Include="src\util\util.h" />
+    <ClInclude Include="test\test_resource_manager.h" />
     <ClInclude Include="util\timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
